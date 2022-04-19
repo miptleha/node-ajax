@@ -1,0 +1,25 @@
+{
+  "name": "node-ajax",
+  "version": "1.0.0",
+  "description": "Simple AJAX sample on Node.JS ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miptleha/node-ajax.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "AJAX",
+    "HTML",
+    "JavaScript"
+  ],
+  "author": "miptleha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miptleha/node-ajax/issues"
+  },
+  "homepage": "https://github.com/miptleha/node-ajax#readme"
+}
