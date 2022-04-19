@@ -1,3 +1,5 @@
+![Cat and dog](cat.jpg)
+
 # Node-ajax
 Simple AJAX sample on Node.JS  
 Does not contain any third-part libraries or packages, only build-in Node.JS modules for server and pure JavaScript with XMLHttpRequest for client
@@ -26,6 +28,4 @@ Possible requests (other will return 404 status):
 | / | index.html |
 | cat | cat.jpg |
 | hello | hello.html |
-
-![Cat and dog](cat.jpg)
 
