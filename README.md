@@ -26,6 +26,5 @@ Possible requests (other will return 404 status):
 | Request | Local file |
 | - | - |
 | / | index.html |
-| cat | cat.jpg |
-| hello | hello.html |
-
+| /hello | hello.html |
+| /cat | cat.jpg |
