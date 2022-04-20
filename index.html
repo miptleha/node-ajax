@@ -7,6 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Content from index.html file</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid quae facilis temporibus fugit deserunt fuga, doloremque pariatur illo sequi nesciunt delectus cupiditate inventore dolores neque tempore repellat quas? Tempora?
+    Dolores, mollitia nemo deleniti harum esse, perferendis illum laborum vitae rem illo molestias hic quae aspernatur numquam adipisci dicta ab modi debitis. Totam voluptates, dicta voluptatibus veritatis numquam assumenda illum?</p>
+
+    <div id="child">Wait for 3 seconds...</div>
+    <script>
+        setTimeout(loadDiv, 3000);
+
+        function loadDiv() {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "/hello");
+            let child = document.getElementById('child');
+            xhr.onerror = e => {
+                child.innerText = xhr.status + ": " + xhr.responseText;
+            };
+            xhr.onload = e => {
+                child.innerHTML = xhr.responseText;
+            };
+            xhr.send();
+        }
+    </script>
 </body>
 </html>
