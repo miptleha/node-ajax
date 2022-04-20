@@ -2,7 +2,7 @@
 
 # Node-ajax
 Simple AJAX sample on Node.JS  
-Does not contain any third-part libraries or packages, only build-in Node.JS modules for server and pure JavaScript with XMLHttpRequest for client
+Does not contain any third-part libraries or packages, only build-in Node.JS modules for server and pure JavaScript with XMLHttpRequest
 
 To run you need to install [Node.JS and NPM](https://nodejs.org/en/download/)  
 Then run following code from console:  
